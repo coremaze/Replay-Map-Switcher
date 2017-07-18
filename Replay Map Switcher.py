@@ -22,7 +22,6 @@ hMap.close()
 h = hashlib.md5()
 h.update(cMap)
 newMapHash = h.hexdigest()
-print(newMapHash)
 
 #Put new hash in
 cFile = list(cFile)
